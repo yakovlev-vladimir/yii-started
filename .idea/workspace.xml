@@ -30,19 +30,21 @@
         </entry>
       </file>
       <file leaf-file-name="readme.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../kholmsk/readme.md">
+        <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="438" selection-end="438" vertical-scroll-proportion="0.43896714">
+            <state line="22" column="0" selection-start="439" selection-end="439" vertical-scroll-proportion="0.43896714">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../kholmsk/public/index.php">
+      <file leaf-file-name="development.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/config/development.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="16" selection-start="0" selection-end="1146" vertical-scroll-proportion="-1.9615384">
-              <folding />
+            <state line="31" column="0" selection-start="803" selection-end="803" vertical-scroll-proportion="-20.26923">
+              <folding>
+                <element signature="e#6#98#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,9 +61,12 @@
       <list>
         <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/../kholmsk/readme.md" />
+        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/application/config/development.php" />
       </list>
     </option>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="2" />
     <option name="width" value="1287" />
@@ -111,10 +116,6 @@
               <option name="myItemId" value="tw-robot" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -123,6 +124,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tw-robot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -273,6 +278,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../kholmsk/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="9" selection-start="0" selection-end="438" vertical-scroll-proportion="0.29929578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="13" selection-start="505" selection-end="505" vertical-scroll-proportion="-9.807693">
@@ -280,9 +292,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../kholmsk/readme.md">
+    <entry file="file://$PROJECT_DIR$/../kholmsk/application/config/development.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="438" selection-end="438" vertical-scroll-proportion="0.43896714">
+        <state line="12" column="24" selection-start="0" selection-end="928" vertical-scroll-proportion="0.1646489">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/development.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="803" selection-end="803" vertical-scroll-proportion="-20.26923">
+          <folding>
+            <element signature="e#6#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="439" selection-end="439" vertical-scroll-proportion="0.43896714">
           <folding />
         </state>
       </provider>
