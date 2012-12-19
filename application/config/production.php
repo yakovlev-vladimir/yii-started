@@ -12,7 +12,7 @@ return CMap::mergeArray(
         'components'=>array(
             // переопределяем компонент db
             'db'=>array(
-
+                'connectionString' => 'mysql:host=localhost;dbname=testdrive',
                 'emulatePrepare' => true,
                 'username' => 'root',
                 'password' => '',
