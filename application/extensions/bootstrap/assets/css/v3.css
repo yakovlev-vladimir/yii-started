@@ -1,0 +1,311 @@
+body {
+    font-family:  Helvetica, Arial, sans-serif;
+    color: #444;
+}
+
+.navbar-inner {
+  background-color:  #2C5CA0;
+  background-image: -moz-linear-gradient(top,#4D82BC, #2C5CA0);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#4D82BC), to(#2C5CA0));
+  background-image: -webkit-linear-gradient(top, #4D82BC, #2C5CA0);
+  background-image: -o-linear-gradient(top, #4D82BC, #2C5CA0);
+  background-image: linear-gradient(to bottom, #4D82BC,#2C5CA0);
+  background-repeat: repeat-x;
+  border-color: #1B3960;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4D82BC', endColorstr='#2C5CA0', GradientType=0);
+}
+
+.navbar .navbar-text,  .navbar .navbar-text a {
+    color: rgba(255, 255, 255, 0.8);
+    text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.5);
+}
+
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.4);
+    color: white;
+    text-shadow: 0 0 0 rgba(255, 255, 255, 0);
+}
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+    border-top: #2C5CA0 solid 0px;
+    background-color: white;
+}
+
+.navbar .nav > li > a {
+    color: rgba(255, 255, 255, 0.8);
+    text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.5);
+}
+.navbar .nav > li {
+    border-left: 1px solid transparent;
+    border-left: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-right: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+
+.navbar .brand {
+    color: white;
+}
+
+
+.footer ul.socials {
+    margin: 0 0 10px 20px;
+}
+.footer .socials li {
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.footer .socials a {
+    display: block;
+    width: 28px; height: 28px;
+    text-indent: -999em;
+    background: #262626 url("/img/sprite/socials.png");
+}
+
+.footer .socials .fb a { background-position: 0px -1px; }
+.footer .socials .fb a:hover { background-color: #415a99; }
+.footer .socials .vk a { background-position: -29px -1px; }
+.footer .socials .vk a:hover { background-color: #3f638c; }
+.footer .socials .tw a { background-position: -58px -1px; }
+.footer .socials .tw a:hover { background-color: #13b0f1; }
+
+.footer .socials .rss a { background-position: -87px -1px; }
+.footer .socials .rss a:hover { background-color: #fa982d; }
+
+.footer .socials .odnk a { background-position: -116px -1px; }
+.footer .socials .odnk a:hover { background-color: #fa982d; }
+
+.footer .pre-right h4, .footer .pre-right ul {
+    margin: 0 0;
+}
+
+.footer .pre-right ul li {
+    line-height: 14px;
+}
+.footer .pre-right ul li a {
+    font-size: 11px;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    display: inline-block;
+    *margin-right: .3em;
+    vertical-align: text-top;
+    background-repeat: no-repeat;
+    margin-top: 1px;
+}
+[class^="icon-16"],
+[class*=" icon-16"] {
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    background-image: url("Icons/syncfusion-16b-icons.png");
+    background-position: 0 0;
+}
+[class^="icon-24"],
+[class*=" icon-24"] {
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    background-image: url("Icons/syncfusion-24b-icons.png");
+    background-position: 0 0;
+}
+/* White icons with optional class, or on hover/active states of certain elements */
+.icon-white[class^="icon-16"],
+.nav-tabs > .active > a > [class^="icon-"][class^="icon-16"],
+.nav-tabs > .active > a > [class*=" icon-"][class^="icon-16"],
+.nav-pills > .active > a > [class^="icon-"][class^="icon-16"],
+.nav-pills > .active > a > [class*=" icon-"][class^="icon-16"],
+.nav-list > .active > a > [class^="icon-"][class^="icon-16"],
+.nav-list > .active > a > [class*=" icon-"][class^="icon-16"],
+.navbar-inverse .nav > .active > a > [class^="icon-"][class^="icon-16"],
+.navbar-inverse .nav > .active > a > [class*=" icon-"][class^="icon-16"],
+.dropdown-menu > li > a:hover > [class^="icon-"][class^="icon-16"],
+.dropdown-menu > li > a:hover > [class*=" icon-"][class^="icon-16"],
+.dropdown-menu > .active > a > [class^="icon-"][class^="icon-16"],
+.dropdown-menu > .active > a > [class*=" icon-"][class^="icon-16"],
+.icon-white[class*=" icon-16"],
+.nav-tabs > .active > a > [class^="icon-"][class*=" icon-16"],
+.nav-tabs > .active > a > [class*=" icon-"][class*=" icon-16"],
+.nav-pills > .active > a > [class^="icon-"][class*=" icon-16"],
+.nav-pills > .active > a > [class*=" icon-"][class*=" icon-16"],
+.nav-list > .active > a > [class^="icon-"][class*=" icon-16"],
+.nav-list > .active > a > [class*=" icon-"][class*=" icon-16"],
+.navbar-inverse .nav > .active > a > [class^="icon-"][class*=" icon-16"],
+.navbar-inverse .nav > .active > a > [class*=" icon-"][class*=" icon-16"],
+.dropdown-menu > li > a:hover > [class^="icon-"][class*=" icon-16"],
+.dropdown-menu > li > a:hover > [class*=" icon-"][class*=" icon-16"],
+.dropdown-menu > .active > a > [class^="icon-"][class*=" icon-16"],
+.dropdown-menu > .active > a > [class*=" icon-"][class*=" icon-16"] {
+    background-image: url("Icons/syncfusion-16w-icons.png");
+}
+.icon-white[class^="icon-24"],
+.nav-tabs > .active > a > [class^="icon-"][class^="icon-24"],
+.nav-tabs > .active > a > [class*=" icon-"][class^="icon-24"],
+.nav-pills > .active > a > [class^="icon-"][class^="icon-24"],
+.nav-pills > .active > a > [class*=" icon-"][class^="icon-24"],
+.nav-list > .active > a > [class^="icon-"][class^="icon-24"],
+.nav-list > .active > a > [class*=" icon-"][class^="icon-24"],
+.navbar-inverse .nav > .active > a > [class^="icon-"][class^="icon-24"],
+.navbar-inverse .nav > .active > a > [class*=" icon-"][class^="icon-24"],
+.dropdown-menu > li > a:hover > [class^="icon-"][class^="icon-24"],
+.dropdown-menu > li > a:hover > [class*=" icon-"][class^="icon-24"],
+.dropdown-menu > .active > a > [class^="icon-"][class^="icon-24"],
+.dropdown-menu > .active > a > [class*=" icon-"][class^="icon-24"],
+.icon-white[class*=" icon-24"],
+.nav-tabs > .active > a > [class^="icon-"][class*=" icon-24"],
+.nav-tabs > .active > a > [class*=" icon-"][class*=" icon-24"],
+.nav-pills > .active > a > [class^="icon-"][class*=" icon-24"],
+.nav-pills > .active > a > [class*=" icon-"][class*=" icon-24"],
+.nav-list > .active > a > [class^="icon-"][class*=" icon-24"],
+.nav-list > .active > a > [class*=" icon-"][class*=" icon-24"],
+.navbar-inverse .nav > .active > a > [class^="icon-"][class*=" icon-24"],
+.navbar-inverse .nav > .active > a > [class*=" icon-"][class*=" icon-24"],
+.dropdown-menu > li > a:hover > [class^="icon-"][class*=" icon-24"],
+.dropdown-menu > li > a:hover > [class*=" icon-"][class*=" icon-24"],
+.dropdown-menu > .active > a > [class^="icon-"][class*=" icon-24"],
+.dropdown-menu > .active > a > [class*=" icon-"][class*=" icon-24"] {
+    background-image: url("Icons/syncfusion-24w-icons.png");
+}
+.icon-gray[class^="icon-16"],
+.icon-gray[class*=" icon-16"],
+.icon-unsubscribe {
+    background-image: url("Icons/syncfusion-16g-icons.png");
+}
+.icon-gray[class^="icon-24"],
+.icon-gray[class*=" icon-24"],
+.icon-subscribe {
+    background-image: url("Icons/syncfusion-24g-icons.png");
+}
+.icon-16-Add {
+    background-position: 0 0;
+}
+.icon-16-Delete {
+    background-position: -26px 0;
+}
+.icon-16-ArrowHead-Up {
+    background-position: -52px 0;
+}
+.icon-16-ArrowHead-Down {
+    background-position: -78px 0;
+}
+.icon-16-ArrowHead-Left {
+    background-position: -104px 0;
+}
+.icon-16-ArrowHead-Right {
+    background-position: -130px 0;
+}
+.icon-16-Navigation-Up {
+    background-position: -156px 0;
+}
+.icon-16-Navigation-Down {
+    background-position: -182px 0;
+}
+.icon-16-Navigation-Left {
+    background-position: -208px 0;
+}
+.icon-16-Navigation-Right {
+    background-position: -234px 0;
+}
+.icon-16-Download {
+    background-position: -260px 0;
+}
+.icon-16-Upload {
+    background-position: -286px 0;
+}
+.icon-16-Cut {
+    background-position: -312px 0;
+}
+.icon-16-Copy {
+    background-position: -338px 0;
+}
+.icon-16-Paste {
+    background-position: -364px 0;
+}
+.icon-16-Search {
+    background-position: -390px 0;
+}
+.icon-16-Print {
+    background-position: -416px 0;
+}
+.icon-16-Favorite {
+    background-position: -442px 0;
+}
+.icon-16-Bookmark {
+    background-position: -468px 0;
+}
+.icon-16-Calendar {
+    background-position: -494px 0;
+}
+.icon-16-Message {
+    background-position: -520px 0;
+}
+.icon-24-Add {
+    background-position: 0 0;
+}
+.icon-24-Delete {
+    background-position: -34px 0;
+}
+.icon-24-ArrowHead-Up {
+    background-position: -68px 0;
+}
+.icon-24-ArrowHead-Down {
+    background-position: -102px 0;
+}
+.icon-24-ArrowHead-Left {
+    background-position: -136px 0;
+}
+.icon-24-ArrowHead-Right {
+    background-position: -170px 0;
+}
+.icon-24-Navigation-Up {
+    background-position: -204px 0;
+}
+.icon-24-Navigation-Down {
+    background-position: -238px 0;
+}
+.icon-24-Navigation-Left {
+    background-position: -272px 0;
+}
+.icon-24-Navigation-Right {
+    background-position: -306px 0;
+}
+.icon-24-Download {
+    background-position: -340px 0;
+}
+.icon-24-Upload {
+    background-position: -374px 0;
+}
+.icon-24-Cut {
+    background-position: -408px 0;
+}
+.icon-24-Copy {
+    background-position: -442px 0;
+}
+.icon-24-Paste {
+    background-position: -476px 0;
+}
+.icon-24-Search {
+    background-position: -510px 0;
+}
+.icon-24-Print {
+    background-position: -544px 0;
+}
+.icon-24-Favorite {
+    background-position: -578px 0;
+}
+.icon-24-Bookmark
+{
+    background-position: -612px 0;
+}
+.icon-24-Calendar {
+    background-position: -646px 0;
+}
+.icon-24-Message {
+    background-position: -680px 0;
+}
+
+img.avatar {
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}

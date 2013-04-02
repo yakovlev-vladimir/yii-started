@@ -1,0 +1,22 @@
+.footer .footer-socials {
+    /*position: absolute;
+    top: 9px; right: 0;*/
+}
+.footer .footer-socials li {
+    display: inline-block;
+    margin-left: 15px;
+}
+.footer .footer-socials a {
+    display: block;
+    width: 28px; height: 28px;
+    text-indent: -999em;
+    background: #262626 url(/img/sprite/soc.png);
+}
+.footer .footer-socials .footer-fb a { background-position: -46px -15px; }
+.footer .footer-socials .footer-fb a:hover { background-color: #415a99; }
+.footer .footer-socials .footer-vk a { background-position: -75px -15px; }
+.footer .footer-socials .footer-vk a:hover { background-color: #3f638c; }
+.footer .footer-socials .footer-tw a { background-position: -104px -15px; }
+.footer .footer-socials .footer-tw a:hover { background-color: #13b0f1; }
+.footer .footer-socials .footer-rss a { background-position: -133px -15px; }
+.footer .footer-socials .footer-rss a:hover { background-color: #fa982d; }
