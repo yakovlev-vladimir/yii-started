@@ -9,7 +9,6 @@
  * @link http://www.yiiframework.com/
  * @copyright Copyright &copy; 2008-2011 Yii Software LLC
  * @license http://www.yiiframework.com/license/
- * @version $Id$
  */
 
 // fix for fcgi
@@ -17,7 +16,7 @@ defined('STDIN') or define('STDIN', fopen('php://stdin', 'r'));
 
 defined('YII_DEBUG') or define('YII_DEBUG',true);
 
-require_once(dirname(__FILE__) . '/yii.php');
+require_once(dirname(__FILE__).'/yii.php');
 
 if(isset($config))
 {
