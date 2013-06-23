@@ -3,7 +3,7 @@ Install
 
 Git clone
 ---------
-    git clone git@bitbucket.org:sakhalin/yii-starting.git
+    git clone https://github.com/yakovlev-vladimir/yii-started
 
 
 Web server

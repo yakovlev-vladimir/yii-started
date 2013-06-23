@@ -18,7 +18,7 @@ chdir(DIR_PUBLIC);
 
 // Define framework directory
 defined('DIR_LIBRARY') ||
-    define('DIR_LIBRARY',  DIR_PUBLIC . '/../library/yii/fra');
+    define('DIR_LIBRARY',  DIR_PUBLIC . '/../library/yii');
 
 // EVN
 if (APPLICATION_ENV != 'production') { // Development
